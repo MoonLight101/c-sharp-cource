@@ -15,9 +15,9 @@ public class Program
 
         // Отформатировать входные данные 
         var result = new Regex("\r\n");
-        fileContent = result.Replace(fileContent, " ");
+        fileContent = result.Replace(fileContent, ",");
 
-        string[] numbers = fileContent.Split(',', ' ');
+        string[] numbers = fileContent.Split(',');
         for (int i = 0; i < numbers.Length; i++)
         {
             numbers[i] = numbers[i].Replace('.', ',');
