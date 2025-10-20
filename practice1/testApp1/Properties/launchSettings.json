@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "testApp1": {
+      "commandName": "Project",
+      "commandLineArgs": "text.txt"
+    }
+  }
+}

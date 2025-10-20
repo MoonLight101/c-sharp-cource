@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: testApp1",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\practice1\\testApp1\\testApp1.csproj",
+            "launchConfigurationId": "TargetFramework=;testApp1"
+        }
+    ]
+}

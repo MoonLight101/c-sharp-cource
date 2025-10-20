@@ -1,4 +1,5 @@
-﻿namespace testApp1;
+﻿using System.Text.RegularExpressions;
+namespace testApp1;
 					
 public class Program
 {
@@ -7,25 +8,34 @@ public class Program
         // Прочитать входные данные
         if (args.Length == 0)
         {
-            Console.WriteLine("Please enter a file name as an argument.");
+            Console.WriteLine("Please enter a txt file name as an argument.");
             return;
         }
         string fileContent = File.ReadAllText(args[0]);
 
         // Отформатировать входные данные 
-        string[] coordinates = fileContent.Split('\n');
+        var result = new Regex("\r\n");
+        fileContent = result.Replace(fileContent, " ");
+
+        string[] numbers = fileContent.Split(',', ' ');
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            numbers[i] = numbers[i].Replace('.', ',');
+        }
+
+        string[] coordinates = new string[numbers.Length / 2];
+        int j = 0;
         for (int i = 0; i < coordinates.Length; i++)
         {
-            coordinates[i] = coordinates[i].Replace(',', ' ');
-            coordinates[i] = coordinates[i].Replace('.', ',');
-            coordinates[i] = "X: " + coordinates[i];
-        }
-        foreach (var number in coordinates)
-        {
-            Console.WriteLine($"{number}");
+            coordinates[i] = String.Format("Z: {0} Y: {1}", numbers[j], numbers[j + 1]);
+            j += 2;
         }
 
         // Отобразить отформатированные входные данные
+        foreach (var coordinate in coordinates)
+        {
+            Console.WriteLine($"{coordinate}");
+        }
 
 	}
 }
