@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource-1\\practice1\\testApp1\\testApp1.csproj": {}
+    "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource\\practice1\\testApp1\\testApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource-1\\practice1\\testApp1\\testApp1.csproj": {
+    "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource\\practice1\\testApp1\\testApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource-1\\practice1\\testApp1\\testApp1.csproj",
+        "projectUniqueName": "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource\\practice1\\testApp1\\testApp1.csproj",
         "projectName": "testApp1",
-        "projectPath": "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource-1\\practice1\\testApp1\\testApp1.csproj",
+        "projectPath": "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource\\practice1\\testApp1\\testApp1.csproj",
         "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource-1\\practice1\\testApp1\\obj\\",
+        "outputPath": "C:\\Users\\dmitr\\OneDrive\\Desktop\\WinRepos\\c-sharp-cource\\practice1\\testApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config"
